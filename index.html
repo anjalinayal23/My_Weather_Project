@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather APP</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://fontawesome.com/icons/magnifying-glass?f=classic&s=solid"> -->
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter your City" spellcheck="false">
+            <button><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQQAAADCCAMAAACYEEwlAAAAeFBMVEX///8AAAD8/Pzp6en5+fnu7u719fVycnL6+vrr6+tRUVHm5uZdXV3V1dWDg4OqqqpoaGhYWFje3t6WlpbKysqdnZ0QEBCmpqYqKirHx8cXFxeOjo5+fn5ubm4cHBy+vr42NjZKSkomJiYyMjI8PDxBQUG1tbUpKSkCiA3hAAAEtElEQVR4nO3ca3eiMBAGYLmLXEWQIihaL/3//3DZlkEQraTnADK+z8ddc04yhDCZQGczAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHhCLozdhxHplhPmXrRaRV4eOoo6dn+GZyZRtjxKZL233TjUx+7VoIJ08SG1HO3YGrtnQ1ETux2A0sYI3mGF0MPHIfiWOezD4Li732MgSfuVMnYv++Wdn4Xgv4Uzdj97NHe7hKDw5Y3d1d4EN6vB7rz0szRNXcNfnG7C4Gpj97YfzrI+yvUyvQRz+j/did1DIwqGOWZf+xI0loMsv00J5sGlMVO2DOeCWb/QvnM3SdbzeqAydgmktbiO7pA//Jkc72vrArPthF57LmS/5sZO7Z5g9ozwNtWCGD25vkpWBeGTVb5gfdG4Nt782Y9rs2YxROeG4l9j0OXn1yhEffdsOHk1qLhbgy39/sTmhtCqLMno2EKpWqRP756JuNCquOhcM0mOzKaCSSvC7nF+cEte0VRY8aguJOs/TG2TbogvFhU3NS2Hsxea2ReaCpe+OjYkjRLhrqviD5WaLXvq16AcuqShWLuI2nHYR1HmcxRsZ1IQui+nr4umdSrYTqWHittLt4ZFF1T4ge+VDe0+ejUs5c+3dlg2PE+/xET7hoVwhSQob6Tj9JPGuAxCJpz5WWW+9Jn00a9BUaoknv5qRpltTz9doidkx010DRVXutUgXhoVy8QvJ+Xbaz5BEB+J6rIJAt0O4oUyvYzfZvprAhUGUvGFsUwZBcoQr4ryPkP8EVme13wI7rxeEOV9J+FkyfksWwZ99GtQOqXNwslvUjY8MDiNoyAI5320mvh99GpgdBK7FWyn0wk1hwMY2jxIgicIVUVq+vunYpGnwQjmPOXOQdr0061h6VQ8t4UqChad2GR9dWxQdD+I7QZp9ym+oL4kh6qMtsA5SkjncEsOxebrRkikpqBV59LT3zj8SOiN9s41Ijmmo7vuZ7gvTqaFXjp1nNthmTFLa/FazKuy6LpKfqcUWKMYSMvpV5orVcIkGR1GZVXv+K45JEpEv76XZzy9yZ3rK48frN7tda4vcNtPdsb5QZIEQjYlXrUsSOdfK0VR86MQXu95r2oj2z760ElNDtINkQzr5cn1Dz52q+DOY0IPs/VtDIoHBKe5oGb1oZ3cS/MSq4GX3f88astpLmjNj392ByNKFFWWZVW38pV9vjMLyihw+jBMjtqXevdxPH4+HH7J5xSFWdjpY7g2m9O6MAvczfMhnxatf2J1RxQPwfYIbxiOcicKnFbH4kF4Od4ZeeUQqtf3M2p4rQuz2fzi7+8Mv9gvnY3yyE3Ztv5zyWsuFM8JZ7W9/Rx0czDi67bCakeBVe74Q3PyyF3uN8Xjcb072WmcBI2Ki9L+uN7nF4ViPqiaZlpBoJia3s6iFf7rQgfanXWBVb7QyZ11gcMrvoIUvxUFRjXHrrRW1jT9l7jEabdzgcfJpCDTaAbhDReFgtKMwjveDgWtkTXxOJ4VZ9bWBdHPZ/gwq+qk8a4ToaBF37utQ/SGWUJNkEdx/hZ/lu1Xb/2nKwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa/gFDYi+cMLfJlAAAAABJRU5ErkJggg"></button>
+
+        </div>
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+        <div class="weather">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl2YOGDJE9JxbbpffJpYipQGU8AsqWiIJ2bBVGtKUdinn39cslU9AvdSq7C3VlsUL2a6c&usqp=CAU" class="weather-icon">
+            <h1 class="temp">20°C</h1>
+            <h2 class="city">India</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW_y4YftlduaPD3RTFVHltzxSshPAxvrsCxw&usqp=CAU">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                    
+                </div>
+
+                <div class="col">
+                    <img src="https://img.lovepik.com/element/40160/1599.png_300.png">
+                    <div>
+                        <p class="wind">15km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            
+        </div>
+
+    </div>
+    <script>
+    const apikey="48fe8247533d4d20f96d656beb816dd6";
+    const apiUrl="https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
+
+    const searchBox = document.querySelector(".search input");
+    const searchBtn = document.querySelector(".search button");
+
+
+    async function checkWeather(city){
+        const response= await fetch(apiUrl + city + `&appid=${apikey}`);
+
+        if(response.status == 404){
+            document.querySelector(".error").style.display = "block";
+            document.querySelector(".weather").style.display = "none";
+        }else{
+            var data= await response.json();
+        
+
+        document.querySelector(".city").innerHTML = data.name;
+        document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°C";
+        document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
+        document.querySelector(".wind").innerHTML = data.wind.speed + "km/h";
+
+        document.querySelector(".weather").style.display= "block";
+        document.querySelector(".error").style.display = "none";
+
+        }
+        
+    } 
+    searchBtn.addEventListener("click", ()=>{
+        checkWeather(searchBox.value);
+
+    })
+    
+    </script>
+    
+</body>
+</html>
+
+
+
